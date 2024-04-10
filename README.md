@@ -2,6 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
 
+## Structure
+
+src
+├── app
+│   ├── payment-details
+│   │   ├── payment-details.component.ts|.html
+│   │   └── payment-detail-form
+│   │       └── payment-detail-form.component.ts|.html
+│   ├── shared
+│   │   ├── payment-detail.service.ts
+│   │   └── payment-detail.model.ts
+│   └── app.module.ts
+├── styles.css (global css rules)
+└── index.html (cdn path for bootstrap ui & fa icons)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
